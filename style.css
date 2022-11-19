@@ -1,21 +1,30 @@
-.div {
-  justify-content: center;
-  position: absolute;
-  display: flex;
-  height: 50%;
-  width: 50%;
+body {
+  margin: 0px;
   background-color: black;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-}
-.h1 {
-  -webkit-text-stroke-width: 2px; /* largura da borda */
-  -webkit-text-stroke-color: white; /* cor da borda */
-  color: black;
 }
 
-.container {
-  height: 100vh;
-  width: 100vw;
+.h1 {
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.center2 {
+  position: absolute; /* alinhamento da div  */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  size-adjust: 50%;
+  border: 3px solid white;
+}
+
+.navbar {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 100px;
+}
+.navbar a {
+  /* config da escrita */
+  color: white;
 }
